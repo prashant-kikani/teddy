@@ -1,0 +1,84 @@
+.main-container {
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.board {
+    height: 420px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.cell {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor:pointer;
+    float:left;
+    line-height: 140px;
+    text-align: center;
+    font-family: "Segoe UI", Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.control {
+    font-family: "Segoe UI", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:40px;
+}
+
+.level {
+    margin: 0 15px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.not-selected {
+    opacity: 0.7;
+}
+
+.not-selected:hover {
+    color: gray;
+    opacity:1;
+}
+
+.start {
+    margin: 20px;
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+    opacity:0.8;
+}
+
+.start:hover {
+    opacity:1;
+}
+
+.ingame {
+    display:none;
+    color:black;
+}
+
+.ingame > p {
+    margin:0px;
+}
+
+.robot {
+    opacity:0.8;
+}

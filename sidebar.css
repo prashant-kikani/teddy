@@ -1,0 +1,145 @@
+body{
+	padding-top: 55px;
+	padding-bottom: 40px;
+	/*background-color: grey;*/
+}
+footer {
+    padding-bottom: 5px;
+    padding-top: 500px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: grey;
+    font-family: "Segoe UI", Times, serif;
+    color: black;
+    font-size: 15px;
+  } 
+.navbar-inverse{
+	position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-inverse > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-inverse .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 19px;
+}
+
+.navbar-inverse .navbar .container {
+  width: auto;
+}
+#page-content-wrapper, #wrapper{
+   margin-top: 25px;
+}
+  #menu-toggle{
+    margin: 7px 7px;
+  }
+  /*#sidebar-wrapper{
+    margin: 0px;
+  }*/
+  #des{
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Calibri", Times, serif;
+    font-size: 17px; 
+  }
+  
+  .navbar-brand{
+    font-family: "Segoe UI", Times, serif;
+    font-size: 35px; 
+    padding-bottom: 2px; 
+  }
+  .navbar{
+    font-family: "Segoe UI", Times, serif;
+    font-size: 17px; 
+  }
+  footer {
+    padding-bottom: 5px;
+    padding-top: 500px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-family: "Segoe UI", Times, serif;
+    color: black;
+    font-size: 15px;
+  }
+#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 0;
+	height: 100%;
+	overflow-y: hidden;
+	background-color: : grey;
+	color: white;
+	font-family: "Segoe UI", Times, serif;
+    font-size: 17px; 
+    margin: 25px;
+	/*border: 2px solid red;
+	opacity: 0.9;*/
+}
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+	/*border: 5px solid green;*/
+}
+
+#sidebar-wrapper.menuDisplayed {
+	width: 200px;
+}
+
+#wrapper.menuDisplayed{
+	padding-left: 200px;
+}
+
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.sidebar-nav li a {
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+.sidebar-nav li a:hover{
+	background: gray; 
+}
+
+/*leaders.php
+***************************************************
+*/
+
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}

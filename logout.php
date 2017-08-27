@@ -1,0 +1,12 @@
+<?php
+session_start();
+if(isset($_SESSION['name']))
+{
+	unset($_SESSION);
+	session_destroy();
+	session_start();
+	$_SESSION['name']=null;
+	$_SESSION['ok']=null;
+	header("location:home.php");
+}
+?>
